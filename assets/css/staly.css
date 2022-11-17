@@ -1,0 +1,146 @@
+
+.container {
+    background-color: rgb(255, 255, 255);
+}
+
+main {
+    margin-top: 10px;
+    min-height: auto;
+    
+}
+
+
+.a {
+    grid-area: a;
+}
+
+.b {
+    grid-area: b;
+}
+
+.c {
+    grid-area: c;
+}
+
+.main-photo {
+    display: grid;
+    grid-auto-rows: 170px;
+    grid-template-areas: "a b c";
+    gap: 20px;
+    margin-top: 10px; 
+}
+
+
+p {
+    font-weight: 700;
+}
+
+
+.main-nav {
+    background-color: rgb(58, 58, 58);
+}
+
+img {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+
+
+.a {
+    background-image: url(../img/photo-card1.avif);
+    background-size: cover;
+}
+
+.b {
+    background-image: url(../img/photo-card.avif);
+    background-size: cover;
+}
+
+.c {
+    background-image: url(../img/photo-cars3.avif);
+    background-size: cover;
+}
+
+.a1{
+    grid-area: a1;
+}
+
+.b2{
+    grid-area: b2;
+}
+
+.v3 {
+    grid-area: v3;
+}
+
+.c4 {
+    grid-area: c4;
+}
+.g5 {
+    grid-area: g5;
+}
+
+.y6 {
+    grid-area: y6;
+}
+
+.j7 {
+    grid-area: j7;
+}
+
+.f8 {
+    grid-area: f8;
+}
+
+.container-box {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 20px;
+    padding-top: 10px;
+    grid-template-areas: "a1 b2 v3 c4"
+                         "g5 y6 q7 f8";            
+}
+
+.namber {
+    text-align: center;
+}
+
+
+.p {
+    grid-area: p;
+}
+
+.l {
+    grid-area: l;
+}
+
+.m {
+    grid-area: m;
+}
+
+.o {
+    grid-area: o;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(4 / 350px);
+    grid-template-areas: "p l m o";
+    gap: 20px;
+    margin-top: 10px; 
+}
+
+.OpenCart {
+    background: black;
+}
+
+
+
+
+
+
+
+
+
+
